@@ -701,6 +701,82 @@ tbody tr:hover { background: var(--color-surface-hover); }
 }
 .skip-link:focus { top: 0; }
 
+/* ============================================
+   가독성 / 본문 폭 제한 (Readability)
+   - 본문 단락·리스트는 한 줄 60~70자 폭으로 제한
+   - 카드 그리드·테이블·info-strip은 풀폭 유지
+   ============================================ */
+
+/* 본문 텍스트 (모든 페이지 공통) */
+main section > p,
+main section > ol,
+main section > ul {
+  max-width: 68ch;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* 페이지 헤더의 부제 */
+.page-header p,
+.hero .lede {
+  max-width: 68ch;
+  word-break: keep-all;
+}
+
+/* 후기 카드 (단일 컬럼 흐름이라 길어지면 가독성 떨어짐) */
+.review {
+  max-width: 880px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+.review p { max-width: none; line-height: 1.85; }
+
+/* FAQ */
+.faq-item { max-width: 880px; }
+.faq-item summary { word-break: keep-all; line-height: 1.6; }
+.faq-item .answer { word-break: keep-all; line-height: 1.85; }
+
+/* 단일 정보 박스도 본문과 같은 폭으로 */
+main section > .info-box {
+  max-width: 880px;
+}
+.info-box p { max-width: none; word-break: keep-all; }
+
+/* 카드 안 본문은 카드 폭에 맞춤 (제한 해제) */
+.card p,
+.card ul,
+.card ol,
+.pricing-card p,
+.pricing-card ul,
+.trust-item .desc,
+.info-strip .item .value {
+  max-width: none;
+  word-break: keep-all;
+}
+
+/* 카드 내부 텍스트도 한국어 줄바꿈 자연스럽게 */
+.card, .pricing-card, .trust-item, .review, .faq-item {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* 표는 풀폭 유지하되 한국어 줄바꿈 자연스럽게 */
+td, th { word-break: keep-all; }
+
+/* 매거진처럼 좁은 컨테이너(인라인 max-width)일 때는 자동으로 본문 폭 = 컨테이너 폭 */
+
+/* 모바일에서는 폭 제한 풀어서 풀폭 사용 */
+@media (max-width: 720px) {
+  main section > p,
+  main section > ol,
+  main section > ul,
+  .review,
+  .faq-item,
+  main section > .info-box {
+    max-width: 100%;
+  }
+}
+
 /* 프린트 */
 @media print {
   .topbar, .site-header, .site-footer, .cta-button, .cta-outline { display: none; }
