@@ -5,4 +5,4 @@ Disallow: /admin/
 Disallow: /magazine/_template.html
 Disallow: /partials/
 
-Sitemap: https://www.19hole.kr/sitemap.xml
+Sitemap: https://19hole.vip/sitemap.xml
