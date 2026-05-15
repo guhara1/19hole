@@ -3,27 +3,185 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>가격 안내 | 라운딩19홀 - 분당 정자동 룸 차지·주대</title>
-<meta name="description" content="라운딩19홀 가격 안내. 퍼블릭룸·하이퍼블릭룸 룸 차지, 주류·안주 가격, 봉사료까지 모두 공개합니다. 추가 비용 없는 투명한 가격제.">
+<title>가격 안내 | 라운딩19홀 - 분당 정자동 주대·세트 가격표</title>
+<meta name="description" content="라운딩19홀 분당 정자동 주대 가격표. 1인 31만 / 2인 45만 / 3인 59만 / 4인 73만. 첫 방문 첫 병 이벤트 12만원. 추가 비용 없는 투명 가격제, 예약 010-4850-8515.">
+<meta name="keywords" content="분당 하이퍼블릭 가격, 정자동 룸 가격, 라운딩19홀 가격, 분당 룸 주대, 1인 가격, 2인 세트">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.19hole.kr/rooms/pricing.html">
 <meta property="og:type" content="article">
-<meta property="og:title" content="가격 안내 | 라운딩19홀">
-<meta property="og:description" content="룸 차지, 주류, 봉사료까지 투명하게 공개하는 19홀의 가격제.">
+<meta property="og:title" content="가격 안내 | 라운딩19홀 분당 정자동">
+<meta property="og:description" content="1인 31만 / 2인 45만 / 3인 59만 / 4인 73만. 첫 방문 12만 이벤트.">
 <meta property="og:url" content="https://www.19hole.kr/rooms/pricing.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
+
+<style>
+  /* 가격 카드 컴포넌트 */
+  .pricing-event {
+    position: relative;
+    background: linear-gradient(135deg, rgba(212, 175, 107, 0.15) 0%, rgba(212, 175, 107, 0.05) 100%);
+    border: 1.5px solid var(--color-accent);
+    border-radius: var(--radius);
+    padding: 2rem 1.8rem;
+    margin: 2rem 0 3rem;
+    text-align: center;
+  }
+  .pricing-event .badge {
+    display: inline-block;
+    padding: 0.3rem 0.9rem;
+    background: var(--color-accent);
+    color: #1a1206;
+    font-weight: 700;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    border-radius: 999px;
+    margin-bottom: 0.8rem;
+  }
+  .pricing-event h3 {
+    font-family: var(--font-serif);
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    color: var(--color-accent-strong);
+    margin: 0.3rem 0;
+  }
+  .pricing-event .price {
+    font-size: clamp(2.4rem, 6vw, 3.2rem);
+    color: var(--color-text);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin: 0.5rem 0;
+  }
+  .pricing-event .price .won { font-size: 0.6em; color: var(--color-accent-strong); margin-left: 0.2rem; }
+  .pricing-event .desc {
+    color: var(--color-text-soft);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.2rem;
+    margin: 1.5rem 0 2rem;
+  }
+  .pricing-card {
+    position: relative;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 1.8rem 1.5rem 1.5rem;
+    transition: transform .2s, border-color .2s, box-shadow .2s;
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-accent);
+    box-shadow: var(--shadow-md);
+  }
+  .pricing-card.featured {
+    border-color: var(--color-accent);
+    background: linear-gradient(180deg, rgba(212, 175, 107, 0.06) 0%, var(--color-surface) 60%);
+  }
+  .pricing-card.featured::before {
+    content: 'POPULAR';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-accent);
+    color: #1a1206;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+  }
+  .pricing-card .people {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  .pricing-card .people .num {
+    color: var(--color-accent-strong);
+    font-size: 1.05rem;
+    font-weight: 700;
+  }
+  .pricing-card .total {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color-text);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+  .pricing-card .total .won {
+    font-size: 1rem;
+    color: var(--color-accent-strong);
+    margin-left: 0.15rem;
+    font-weight: 600;
+  }
+  .pricing-card .breakdown {
+    list-style: none;
+    margin: 1.2rem 0 0;
+    padding: 1rem 0 0;
+    border-top: 1px dashed var(--color-border);
+    font-size: 0.86rem;
+    color: var(--color-text-soft);
+    line-height: 1.8;
+  }
+  .pricing-card .breakdown li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+  }
+  .pricing-card .breakdown li span:last-child {
+    color: var(--color-accent-strong);
+    font-weight: 600;
+  }
+  .pricing-card .note {
+    margin-top: 1rem;
+    padding-top: 0.9rem;
+    border-top: 1px dashed var(--color-border);
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    flex: 1;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    padding: 1rem 1.2rem;
+    background: var(--color-bg-soft);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    margin: 1rem 0 2rem;
+  }
+  .legend .term {
+    color: var(--color-accent-strong);
+    font-weight: 700;
+    margin-right: 0.4rem;
+  }
+  .legend .desc { color: var(--color-text-muted); }
+</style>
 </head>
 <body>
+<a class="skip-link" href="#main-content">본문 바로가기</a>
 <div data-include="header"></div>
 
 <section class="page-header">
   <div class="container">
     <nav class="breadcrumb"><a href="/">홈</a> · <a href="/rooms/types.html">룸 &amp; 시스템</a> · <span>가격 안내</span></nav>
     <h1>가격을 숨기지 않습니다</h1>
-    <p class="muted">사전 안내된 항목만 청구하는 19홀의 투명 가격제</p>
+    <p class="muted">홈페이지 가격 그대로 정산되는, 라운딩19홀의 투명 가격제</p>
   </div>
 </section>
 
@@ -33,67 +191,138 @@
     <section>
       <div class="info-box">
         <strong>가격 정책 원칙</strong>
-        <p style="margin-top:0.5rem;">19홀은 홈페이지 가격과 매장 메뉴판 가격을 동일하게 운영합니다. 사전 안내되지 않은 비용은 청구되지 않으며, 가격 변동 시 즉시 페이지를 업데이트합니다.</p>
+        <p style="margin-top:0.5rem;">라운딩19홀은 <strong>홈페이지 가격 = 매장 정산 금액</strong>을 원칙으로 합니다. 사전 안내되지 않은 비용은 청구되지 않으며, 가격 변동 시 즉시 페이지에 반영합니다. <strong>혼자 오신다고 절대 차별하지 않습니다.</strong></p>
       </div>
     </section>
 
-    <section>
-      <h2>룸 차지 (기본 이용료)</h2>
-      <p>룸 차지는 룸을 이용하는 기본료입니다. 룸 타입과 시간대에 따라 차이가 있습니다. 아래는 참고용 범위이며, 정확한 금액은 예약 단계에서 안내해 드립니다.</p>
-      <table>
-        <thead><tr><th>룸 타입</th><th>기본 시간</th><th>가격 범위</th></tr></thead>
-        <tbody>
-          <tr><td>퍼블릭룸 (2~6인)</td><td>2시간 기준</td><td>문의</td></tr>
-          <tr><td>하이퍼블릭룸 (4~12인)</td><td>2시간 기준</td><td>문의</td></tr>
-          <tr><td>단체 룸 (10인 이상)</td><td>사전 협의</td><td>인원별 견적</td></tr>
-        </tbody>
-      </table>
-      <p class="muted" style="font-size:0.85rem;">* 실제 가격은 전화·카카오톡 문의 시 정확히 안내됩니다. 시즌·요일에 따라 변동될 수 있습니다.</p>
+    <!-- 첫 방문 이벤트 -->
+    <section aria-labelledby="event">
+      <h2 id="event">첫 방문 이벤트</h2>
+      <div class="pricing-event">
+        <span class="badge">FIRST VISIT · 첫 병 이벤트</span>
+        <h3>첫 방문 고객 한정 첫 병 이벤트</h3>
+        <div class="price">12<span class="won">만원</span></div>
+        <p class="desc">처음 오시는 손님에 한해 적용. 부담 없이 라운딩19홀을 경험해 보실 수 있도록 준비한 이벤트입니다.</p>
+      </div>
+      <p class="muted" style="font-size:0.88rem;">※ 1회 1팀 기준, 다른 이벤트와 중복 불가. 사전 예약 시 적용 가능 여부 안내드립니다.</p>
     </section>
 
-    <section>
-      <h2>주류 메뉴 (대표)</h2>
-      <table>
-        <thead><tr><th>구분</th><th>예시 항목</th><th>특징</th></tr></thead>
-        <tbody>
-          <tr><td>국산 주류</td><td>맥주, 소주, 막걸리</td><td>합리적인 가격</td></tr>
-          <tr><td>수입 맥주</td><td>병맥주 다양</td><td>다양한 브랜드 보유</td></tr>
-          <tr><td>양주</td><td>위스키 · 보드카</td><td>정상 유통 제품만 사용</td></tr>
-          <tr><td>와인</td><td>레드 · 화이트 · 스파클링</td><td>코스 매칭 가능</td></tr>
-        </tbody>
-      </table>
+    <!-- 인원별 주대 -->
+    <section aria-labelledby="pricing">
+      <h2 id="pricing">인원별 주대 가격표</h2>
+      <p>아래 금액은 <strong>총액 기준</strong>이며 주류·테이블 차지·서비스가 모두 포함됩니다. 인원별로 구성과 분위기를 맞춰 드립니다.</p>
+
+      <div class="legend" aria-label="가격 표기 안내">
+        <span><span class="term">Whisky 12</span><span class="desc">양주 12만원</span></span>
+        <span><span class="term">T.C 14만</span><span class="desc">테이블 차지 14만원</span></span>
+        <span><span class="term">W.T 5만</span><span class="desc">웨이터·서비스 5만원</span></span>
+      </div>
+
+      <div class="pricing-grid">
+
+        <article class="pricing-card">
+          <div class="people"><span class="num">1人</span> 1인 기준</div>
+          <div class="total">31<span class="won">만원</span></div>
+          <ul class="breakdown">
+            <li><span>Whisky</span><span>12만</span></li>
+            <li><span>T.C</span><span>14만</span></li>
+            <li><span>W.T</span><span>5만</span></li>
+          </ul>
+          <p class="note">혼자 오시는 손님도 동일한 응대와 룸 컨디션으로 모십니다. 차별 없이 편하게 이용하실 수 있습니다.</p>
+        </article>
+
+        <article class="pricing-card featured">
+          <div class="people"><span class="num">2人</span> 2인 기준</div>
+          <div class="total">45<span class="won">만원</span></div>
+          <ul class="breakdown">
+            <li><span>주류·T.C·서비스</span><span>총 45만</span></li>
+          </ul>
+          <p class="note">강남 텐프로급 초여신 70명 이상 상시 영입. 무한 초이스 가능. 분위기 있는 자리를 원하시는 분께 가장 추천드리는 구성입니다.</p>
+        </article>
+
+        <article class="pricing-card">
+          <div class="people"><span class="num">3人</span> 3인 기준</div>
+          <div class="total">59<span class="won">만원</span></div>
+          <ul class="breakdown">
+            <li><span>주류·T.C·서비스</span><span>총 59만</span></li>
+          </ul>
+          <p class="note">하이퀄리티 A+급 매니저로만 구성된 자리. 내상 제로 원칙으로 운영합니다.</p>
+        </article>
+
+        <article class="pricing-card">
+          <div class="people"><span class="num">4人</span> 4인 기준</div>
+          <div class="total">73<span class="won">만원</span></div>
+          <ul class="breakdown">
+            <li><span>Whisky</span><span>12만</span></li>
+            <li><span>T.C</span><span>14만</span></li>
+            <li><span>W.T</span><span>5만</span></li>
+            <li><span>× 인원 적용</span><span></span></li>
+          </ul>
+          <p class="note">4인 단체에 적합한 구성. 비즈니스 자리 또는 친목 모임에서 가장 자주 선택되는 라인업입니다.</p>
+        </article>
+
+      </div>
+
+      <p class="muted" style="font-size:0.85rem;">※ 5인 이상 단체 견적은 인원·시간·코스에 따라 별도 안내됩니다. 전화 문의 시 가장 정확합니다.</p>
     </section>
 
-    <section>
-      <h2>안주 메뉴 (대표)</h2>
-      <table>
-        <thead><tr><th>구분</th><th>예시 항목</th></tr></thead>
-        <tbody>
-          <tr><td>기본 안주</td><td>과일 모듬, 마른 안주</td></tr>
-          <tr><td>스페셜 안주</td><td>치즈 플레이트, 시즌 안주</td></tr>
-          <tr><td>식사류</td><td>간단 식사 메뉴</td></tr>
-        </tbody>
-      </table>
+    <!-- 가격에 포함되는 것 -->
+    <section aria-labelledby="includes">
+      <h2 id="includes">가격에 포함된 항목 / 별도 항목</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3 style="color:var(--color-success, #6bbf8a);">✓ 가격에 포함</h3>
+          <ul>
+            <li>주류 (양주 1병 기준)</li>
+            <li>룸 차지 (T.C)</li>
+            <li>매니저·서비스 (W.T)</li>
+            <li>기본 안주·세팅</li>
+            <li>음향 시스템·룸 이용료</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="color:var(--color-warn);">+ 별도 발생 가능</h3>
+          <ul>
+            <li>주류 추가 주문 (병당 별도)</li>
+            <li>특수 안주·식사 메뉴</li>
+            <li>시간 연장 차지</li>
+            <li>발렛파킹 (시즌별 상이)</li>
+          </ul>
+          <p style="font-size:0.82rem; margin-top:0.6rem;">위 항목은 주문 시점에 가격을 다시 안내한 뒤 진행됩니다.</p>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>봉사료 및 부가 비용</h2>
-      <ul style="padding-left:1.2rem; color:var(--color-text-muted); line-height:2;">
-        <li><strong>봉사료</strong>: 일정 비율로 메뉴판에 명시</li>
-        <li><strong>연장료</strong>: 30분·1시간 단위 추가 룸 차지</li>
-        <li><strong>부가세</strong>: 가격에 포함 (별도 표기 시 명시)</li>
+    <!-- 결제 -->
+    <section aria-labelledby="payment">
+      <h2 id="payment">결제 방법</h2>
+      <ul>
+        <li><strong>신용카드</strong> · <strong>법인카드</strong> · <strong>현금</strong> 모두 가능</li>
+        <li><strong>세금계산서</strong> 발행 가능 (입장 시 사업자 정보 사전 공유)</li>
+        <li><strong>모바일 페이</strong> (카카오페이 등) 지원</li>
       </ul>
     </section>
 
-    <section>
-      <h2>단체·정기 이용 할인</h2>
-      <p>10인 이상 단체 모임 또는 정기 회식 이용 고객께는 사전 협의를 통해 할인 또는 코스 구성을 제공합니다. 견적이 필요하시면 <a href="/rooms/group.html">단체 예약 안내</a>를 확인하거나 직접 문의해 주세요.</p>
+    <!-- 단체 -->
+    <section aria-labelledby="group">
+      <h2 id="group">단체·정기 이용 견적</h2>
+      <p>10인 이상 단체 또는 정기 회식 이용 고객께는 사전 협의를 통해 코스 단가 또는 할인을 제공합니다. <a href="/rooms/group.html">단체 예약 안내</a>에서 절차를 확인하시거나 전화로 직접 문의해 주세요.</p>
     </section>
 
+    <!-- 19+ 안내 -->
+    <section>
+      <div class="info-box" style="border-left-color:var(--color-warn);">
+        <strong style="color:var(--color-warn);"><span class="age-badge">19+</span> 성인 전용</strong>
+        <p style="margin-top:0.5rem;">라운딩19홀은 <strong>만 19세 이상</strong>만 출입 가능한 식품위생법상 신고 사업장입니다. 신분증 확인이 진행되며, 청소년 출입·고용은 청소년 보호법에 따라 절대 금지됩니다.</p>
+      </div>
+    </section>
+
+    <!-- 최종 CTA -->
     <section>
       <div class="info-box">
-        <strong>정확한 가격 확인이 필요하신가요?</strong>
-        <p style="margin-top:0.5rem;">예약 문의 시 인원·룸 타입·이용 시간에 맞춰 정확한 견적을 안내해 드립니다. <a href="tel:01048508515">010-4850-8515</a> 또는 <a href="/contact/inquiry.html">문의 양식</a>으로 연락 주세요.</p>
+        <strong>정확한 견적·가능 룸 확인이 필요하신가요?</strong>
+        <p style="margin-top:0.5rem;">예약 문의 시 인원·룸 타입·이용 시간에 맞춰 정확한 견적을 안내해 드립니다.</p>
+        <p style="margin-top:1rem;"><a href="tel:01048508515" class="cta-button">📞 010-4850-8515 예약 문의</a> <a href="/contact/inquiry.html" class="cta-outline" style="margin-left:0.5rem;">문의 양식</a></p>
       </div>
     </section>
 
