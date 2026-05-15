@@ -742,6 +742,23 @@ main section > .info-box {
 }
 .info-box p { max-width: none; word-break: keep-all; }
 
+/* 본문 표는 가독성 폭으로 (단, 큰 그리드성 표는 별도 클래스 사용 가능) */
+main section > table {
+  max-width: 880px;
+}
+
+/* 본문 단락 사이 여백을 살짝 더 시원하게 */
+main section > p { margin-bottom: 1.1rem; }
+main section > h2 { margin-top: 3rem; }
+main section > h3 { margin-top: 2rem; }
+main section > ol > li,
+main section > ul > li { margin-bottom: 0.4rem; line-height: 1.85; }
+
+/* 페이지 헤더 정렬 */
+.page-header h1 { word-break: keep-all; }
+
+/* 인라인 max-width 컨테이너(매거진)는 이미 적용된 폭 유지 */
+
 /* 카드 안 본문은 카드 폭에 맞춤 (제한 해제) */
 .card p,
 .card ul,
