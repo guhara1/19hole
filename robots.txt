@@ -1,8 +1,86 @@
+# ============================================
+# 라운딩19홀 robots.txt
+# 분당 정자동 하이퍼블릭 룸 가라오케
+# 모든 검색엔진 크롤러 허용 (인덱싱 최적화)
+# ============================================
+
+# 기본: 모든 크롤러 허용
 User-agent: *
 Allow: /
 Disallow: /assets/js/
-Disallow: /admin/
-Disallow: /magazine/_template.html
 Disallow: /partials/
+Disallow: /magazine/_template.html
 
+# ===== 주요 검색엔진 명시 허용 =====
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+# Naver
+User-agent: Yeti
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+User-agent: Naverbot
+Allow: /
+
+# Daum / Kakao
+User-agent: Daum
+Allow: /
+
+User-agent: Daumoa
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# 기타 메이저
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: KakaoTalk-Scrap
+Allow: /
+
+# ===== 사이트맵 & 피드 =====
 Sitemap: https://19hole.vip/sitemap.xml
+Sitemap: https://19hole.vip/rss.xml
