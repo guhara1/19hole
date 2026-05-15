@@ -27,11 +27,7 @@
   "name":"라운딩19홀 블로그",
   "description":"분당 정자동 룸 가라오케 라운딩19홀의 공식 블로그",
   "url":"https://www.19hole.kr/magazine/",
-  "publisher":{
-    "@type":"Organization",
-    "name":"라운딩19홀",
-    "url":"https://www.19hole.kr/"
-  },
+  "publisher":{"@type":"Organization","name":"라운딩19홀","url":"https://www.19hole.kr/"},
   "inLanguage":"ko-KR"
 }
 </script>
@@ -43,74 +39,251 @@
 </script>
 
 <style>
-  .post-list { margin-top: 1.5rem; }
-  .post-list article {
-    display: block;
-    padding: 1.8rem 0;
-    border-bottom: 1px solid var(--color-border);
-    transition: opacity .2s;
+  /* ========= 블로그 인덱스 전용 ========= */
+
+  /* 히어로 (최신 글 1개를 크게) */
+  .blog-hero {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 0;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin: 2rem 0 3rem;
+    transition: transform .2s, border-color .2s, box-shadow .2s;
   }
-  .post-list article:hover { opacity: 0.85; }
-  .post-list article:last-child { border-bottom: none; }
-  .post-list .post-meta {
+  .blog-hero:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+  .blog-hero .thumb {
+    position: relative;
+    min-height: 280px;
+    background:
+      radial-gradient(circle at 30% 30%, rgba(212,175,107,0.45) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(212,175,107,0.25) 0%, transparent 50%),
+      linear-gradient(135deg, #1e1916 0%, #15110d 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: 1.8rem;
+  }
+  .blog-hero .thumb::before {
+    content: 'NEW';
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    padding: 0.35rem 0.9rem;
+    background: var(--color-accent);
+    color: #1a1206;
+    font-weight: 800;
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    border-radius: 999px;
+  }
+  .blog-hero .thumb-label {
+    font-family: var(--font-serif);
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    color: var(--color-accent-strong);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    opacity: 0.85;
+    line-height: 1.2;
+  }
+  .blog-hero .body {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blog-hero .meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.8rem;
+    gap: 0.6rem;
     font-size: 0.82rem;
     color: var(--color-text-muted);
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.8rem;
     align-items: center;
   }
-  .post-list .post-cat {
-    display: inline-block;
-    padding: 0.2rem 0.65rem;
-    background: rgba(212, 175, 107, 0.12);
-    border: 1px solid rgba(212, 175, 107, 0.35);
-    color: var(--color-accent-strong);
-    border-radius: 999px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-  }
-  .post-list h3 {
+  .blog-hero h3 {
     font-family: var(--font-serif);
-    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-size: clamp(1.4rem, 3vw, 1.7rem);
     color: var(--color-text);
-    margin: 0 0 0.6rem;
+    line-height: 1.35;
+    margin: 0 0 0.8rem;
     font-weight: 700;
-    line-height: 1.4;
     word-break: keep-all;
   }
-  .post-list h3 a { color: inherit; text-decoration: none; }
-  .post-list h3 a:hover { color: var(--color-accent-strong); }
-  .post-list .post-excerpt {
-    color: var(--color-text-soft);
-    font-size: 0.96rem;
-    line-height: 1.75;
-    max-width: 68ch;
-    word-break: keep-all;
+  .blog-hero h3 a { color: inherit; text-decoration: none; }
+  .blog-hero p { color: var(--color-text-soft); line-height: 1.75; margin: 0; word-break: keep-all; }
+  .blog-hero .read-more {
+    margin-top: 1.2rem;
+    color: var(--color-accent-strong);
+    font-weight: 600;
+    font-size: 0.92rem;
+    align-self: flex-start;
   }
-  .category-filter {
+  @media (max-width: 760px) {
+    .blog-hero { grid-template-columns: 1fr; }
+    .blog-hero .thumb { min-height: 180px; }
+    .blog-hero .body { padding: 1.5rem; }
+  }
+
+  /* 카테고리 탭 필터 */
+  .cat-tabs {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin: 1.5rem 0 0.5rem;
-  }
-  .category-filter a {
-    padding: 0.45rem 1rem;
+    padding: 0.6rem;
     background: var(--color-surface);
     border: 1px solid var(--color-border);
-    border-radius: 999px;
-    font-size: 0.85rem;
+    border-radius: var(--radius);
+    margin: 1rem 0 2rem;
+  }
+  .cat-tabs button {
+    padding: 0.55rem 1.1rem;
+    background: transparent;
+    border: none;
     color: var(--color-text-soft);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 999px;
+    font-family: inherit;
+    transition: background .15s, color .15s;
+  }
+  .cat-tabs button:hover { color: var(--color-accent-strong); }
+  .cat-tabs button.active {
+    background: var(--color-accent);
+    color: #1a1206;
+  }
+  .cat-tabs .count {
+    display: inline-block;
+    margin-left: 0.4rem;
+    font-size: 0.75rem;
+    opacity: 0.7;
+  }
+
+  /* 블로그 카드 그리드 */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .blog-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    overflow: hidden;
     text-decoration: none;
-    transition: border-color .2s, color .2s;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    transition: transform .2s, border-color .2s, box-shadow .2s;
   }
-  .category-filter a:hover,
-  .category-filter a.active {
+  .blog-card:hover {
+    transform: translateY(-4px);
     border-color: var(--color-accent);
-    color: var(--color-accent-strong);
+    box-shadow: var(--shadow-md);
+    color: inherit;
   }
+  .blog-card .thumb {
+    position: relative;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    opacity: 0.85;
+  }
+  /* 카테고리별 썸네일 색상 */
+  .blog-card.cat-guide  .thumb { background: linear-gradient(135deg, #2b2520 0%, #1a1612 100%); color: #d4af6b; }
+  .blog-card.cat-season .thumb { background: linear-gradient(135deg, #2a2b35 0%, #161821 100%); color: #9ab4d4; }
+  .blog-card.cat-local  .thumb { background: linear-gradient(135deg, #1f2a26 0%, #131a17 100%); color: #6bbf8a; }
+  .blog-card.cat-tip    .thumb { background: linear-gradient(135deg, #2c2530 0%, #1a141d 100%); color: #c79ad4; }
+  .blog-card .thumb::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(255,255,255,0.04) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .blog-card .body {
+    padding: 1.3rem 1.4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .blog-card .meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.78rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.6rem;
+  }
+  .blog-card .cat-badge {
+    display: inline-block;
+    padding: 0.18rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+  .blog-card.cat-guide  .cat-badge { background: rgba(212,175,107,0.15); color: #ecc585; border: 1px solid rgba(212,175,107,0.35); }
+  .blog-card.cat-season .cat-badge { background: rgba(154,180,212,0.13); color: #b0c4dc; border: 1px solid rgba(154,180,212,0.35); }
+  .blog-card.cat-local  .cat-badge { background: rgba(107,191,138,0.13); color: #8fd0a8; border: 1px solid rgba(107,191,138,0.35); }
+  .blog-card.cat-tip    .cat-badge { background: rgba(199,154,212,0.13); color: #d4b0e0; border: 1px solid rgba(199,154,212,0.35); }
+  .blog-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 0 0 0.6rem;
+    color: var(--color-text);
+    font-weight: 700;
+    word-break: keep-all;
+  }
+  .blog-card p {
+    font-size: 0.88rem;
+    color: var(--color-text-soft);
+    line-height: 1.7;
+    margin: 0 0 1rem;
+    word-break: keep-all;
+    max-width: none;
+  }
+  .blog-card .read-more {
+    margin-top: auto;
+    color: var(--color-accent-strong);
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  /* 비어있을 때 */
+  .empty {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--color-text-muted);
+    background: var(--color-surface);
+    border: 1px dashed var(--color-border);
+    border-radius: var(--radius);
+  }
+
+  /* 섹션 헤딩 */
+  .section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .section-head h2 { margin: 0; border-bottom: none; padding-bottom: 0; }
+  .section-head .sub { font-size: 0.85rem; color: var(--color-text-muted); }
 </style>
 </head>
 <body>
@@ -121,90 +294,122 @@
   <div class="container">
     <nav class="breadcrumb"><a href="/">홈</a> · <span>블로그</span></nav>
     <h1>라운딩19홀 블로그</h1>
-    <p class="muted">분당 정자동에서 직접 운영하며 쓰는, 룸 가라오케 이용 가이드와 회식 정보</p>
+    <p class="muted">분당 정자동에서 직접 운영하며 쓰는 회식·단체·룸 이용 이야기</p>
   </div>
 </section>
 
 <main id="main-content">
   <div class="container">
 
-    <section>
-      <p>매주 새 글이 발행됩니다. 회식·단체 모임·룸 이용 팁, 분당 정자동의 시즌별 정보까지 운영자가 현장에서 정리한 이야기를 공유합니다.</p>
-
-      <div class="category-filter" aria-label="카테고리 필터">
-        <a href="/magazine/" class="active">전체</a>
-        <a href="#guide">가이드</a>
-        <a href="#season">시즌</a>
-        <a href="#local">지역</a>
-        <a href="#tip">팁</a>
+    <!-- 최신 글 히어로 카드 -->
+    <a href="/magazine/2026-05-15-bundang-hoesik-room-criteria.html" class="blog-hero" style="text-decoration:none;">
+      <div class="thumb">
+        <span class="thumb-label">가이드<br>분당 회식 자리</span>
       </div>
-    </section>
-
-    <section>
-      <h2>최신 글</h2>
-
-      <div class="post-list">
-
-        <article>
-          <div class="post-meta">
-            <span class="post-cat">가이드</span>
-            <time datetime="2026-05-15">2026년 5월 15일</time>
-            <span>· 작성: 라운딩19홀 운영팀</span>
-          </div>
-          <h3><a href="/magazine/2026-05-15-bundang-hoesik-room-criteria.html">분당 정자동 회식 장소, 5월에 고르기 좋은 룸 가라오케 기준 5가지</a></h3>
-          <p class="post-excerpt">5월은 분당·판교 기업의 단체 회식 수요가 다시 늘어나는 시기입니다. 매장 입장에서 봤을 때 "이런 자리가 가장 잘 어울리겠다" 싶은 기준 5가지를 정리했습니다.</p>
-        </article>
-
+      <div class="body">
+        <div class="meta">
+          <span class="post-cat" style="display:inline-block; padding:0.2rem 0.65rem; background:rgba(212,175,107,0.12); border:1px solid rgba(212,175,107,0.35); color:#ecc585; border-radius:999px; font-size:0.75rem; font-weight:700;">가이드</span>
+          <time datetime="2026-05-15">2026년 5월 15일</time>
+          <span>· 읽는 시간 5분</span>
+        </div>
+        <h3>분당 정자동 회식 장소, 5월 룸 가라오케 고르는 기준 5가지</h3>
+        <p>5월은 분당·판교 기업의 회식 수요가 다시 늘어나는 시기입니다. 매장에서 응대하면서 "이런 자리에는 이런 룸이 잘 맞는다" 싶었던 기준을 정리했습니다.</p>
+        <span class="read-more">자세히 읽기 →</span>
       </div>
-    </section>
+    </a>
 
-    <section id="guide">
-      <h2>추천 가이드 (에버그린)</h2>
-      <p>처음 방문하시는 분이나 단체 자리를 준비하시는 분께 가장 자주 추천드리는 글입니다.</p>
+    <!-- 카테고리 탭 -->
+    <div class="cat-tabs" role="tablist" aria-label="카테고리 필터">
+      <button type="button" data-filter="all" class="active" role="tab">전체 <span class="count">(5)</span></button>
+      <button type="button" data-filter="guide" role="tab">가이드</button>
+      <button type="button" data-filter="season" role="tab">시즌</button>
+      <button type="button" data-filter="local" role="tab">지역</button>
+      <button type="button" data-filter="tip" role="tab">팁</button>
+    </div>
 
-      <div class="post-list">
-        <article>
-          <div class="post-meta">
-            <span class="post-cat">가이드</span>
-            <span>· 룸 가라오케 기본</span>
+    <div class="section-head">
+      <h2>전체 글</h2>
+      <span class="sub">매주 수요일 새 글이 발행됩니다</span>
+    </div>
+
+    <!-- 글 카드 그리드 -->
+    <div class="blog-grid" id="post-grid">
+
+      <a href="/magazine/2026-05-15-bundang-hoesik-room-criteria.html" class="blog-card cat-guide" data-cat="guide">
+        <div class="thumb">분당 회식 기준</div>
+        <div class="body">
+          <div class="meta">
+            <span class="cat-badge">가이드</span>
+            <time datetime="2026-05-15">2026.05.15</time>
           </div>
-          <h3><a href="/magazine/karaoke-guide.html">룸 가라오케 이용 정보 - 처음 가는 분을 위한 완벽 가이드</a></h3>
-          <p class="post-excerpt">룸 가라오케가 처음이라면 알아두면 좋은 룸 타입·가격 구조·이용 매너를 한 페이지에 정리했습니다.</p>
-        </article>
+          <h3>분당 정자동 회식 장소, 5월 룸 가라오케 고르는 기준 5가지</h3>
+          <p>인원·예산·접근성·분위기·결제 — 매장 운영자가 자리를 만들면서 본 5가지 기준.</p>
+          <span class="read-more">읽어보기 →</span>
+        </div>
+      </a>
 
-        <article>
-          <div class="post-meta">
-            <span class="post-cat">가이드</span>
-            <span>· 회식</span>
+      <a href="/magazine/karaoke-guide.html" class="blog-card cat-guide" data-cat="guide">
+        <div class="thumb">룸 가라오케 입문</div>
+        <div class="body">
+          <div class="meta">
+            <span class="cat-badge">가이드</span>
+            <time datetime="2026-05-01">2026.05</time>
           </div>
-          <h3><a href="/magazine/party-venue.html">회식 장소 선택 기준 - 무엇을 보고 골라야 할까</a></h3>
-          <p class="post-excerpt">총무·부서장이 자리를 정할 때 실패하지 않는 5가지 체크리스트.</p>
-        </article>
+          <h3>룸 가라오케 이용 정보 - 처음 가는 분을 위한 완벽 가이드</h3>
+          <p>룸 타입·가격 구조·이용 매너까지 처음 방문하시는 분께 필요한 기본 안내.</p>
+          <span class="read-more">읽어보기 →</span>
+        </div>
+      </a>
 
-        <article>
-          <div class="post-meta">
-            <span class="post-cat">팁</span>
-            <span>· 단체</span>
+      <a href="/magazine/party-venue.html" class="blog-card cat-guide" data-cat="guide">
+        <div class="thumb">회식 장소 기준</div>
+        <div class="body">
+          <div class="meta">
+            <span class="cat-badge">가이드</span>
+            <time datetime="2026-05-01">2026.05</time>
           </div>
-          <h3><a href="/magazine/group-tips.html">단체 모임 예약 팁 - 미리 알아두면 좋은 7가지</a></h3>
-          <p class="post-excerpt">10인 이상 단체 자리에서 가장 중요한 점들을 운영자가 정리했습니다.</p>
-        </article>
+          <h3>회식 장소 선택 기준 - 무엇을 보고 골라야 할까</h3>
+          <p>총무·부서장이 자리를 정할 때 실패하지 않는 5가지 체크리스트.</p>
+          <span class="read-more">읽어보기 →</span>
+        </div>
+      </a>
 
-        <article>
-          <div class="post-meta">
-            <span class="post-cat">지역</span>
-            <span>· 방문 동선</span>
+      <a href="/magazine/group-tips.html" class="blog-card cat-tip" data-cat="tip">
+        <div class="thumb">단체 모임 팁</div>
+        <div class="body">
+          <div class="meta">
+            <span class="cat-badge">팁</span>
+            <time datetime="2026-05-01">2026.05</time>
           </div>
-          <h3><a href="/magazine/regional.html">지역별 방문 안내 - 분당·성남·용인·강남</a></h3>
-          <p class="post-excerpt">각 지역에서 분당 정자동까지의 최단 동선과 권역별 추천 자리.</p>
-        </article>
-      </div>
-    </section>
+          <h3>단체 모임 예약 팁 - 미리 알아두면 좋은 7가지</h3>
+          <p>10인 이상 단체 자리에서 가장 중요한 점들을 운영자가 정리했습니다.</p>
+          <span class="read-more">읽어보기 →</span>
+        </div>
+      </a>
 
-    <section>
+      <a href="/magazine/regional.html" class="blog-card cat-local" data-cat="local">
+        <div class="thumb">지역별 방문</div>
+        <div class="body">
+          <div class="meta">
+            <span class="cat-badge">지역</span>
+            <time datetime="2026-05-01">2026.05</time>
+          </div>
+          <h3>지역별 방문 안내 - 분당·성남·용인·강남</h3>
+          <p>각 지역에서 분당 정자동까지의 최단 동선과 권역별 추천 자리.</p>
+          <span class="read-more">읽어보기 →</span>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="empty" id="empty-state" hidden>
+      <p>해당 카테고리에는 아직 글이 없습니다. 매주 새 글이 추가됩니다.</p>
+    </div>
+
+    <section style="margin-top:3rem;">
       <div class="info-box">
-        <strong>새 글 알림을 받고 싶으신가요?</strong>
-        <p style="margin-top:0.5rem;">매주 1개씩 새 글이 발행됩니다. 다음 글 주제 추천이나 궁금한 점은 <a href="/contact/inquiry.html">문의 양식</a>으로 보내 주세요.</p>
+        <strong>다음 글이 궁금하신가요?</strong>
+        <p style="margin-top:0.5rem;">매주 수요일 새 글이 발행됩니다. 다음에 다뤘으면 하는 주제는 <a href="/contact/inquiry.html">문의 양식</a>으로 보내 주세요.</p>
       </div>
     </section>
 
@@ -213,5 +418,30 @@
 
 <div data-include="footer"></div>
 <script src="/assets/js/include.js" defer></script>
+<script>
+  // 카테고리 필터
+  (function () {
+    const tabs = document.querySelectorAll('.cat-tabs button');
+    const cards = document.querySelectorAll('#post-grid .blog-card');
+    const empty = document.getElementById('empty-state');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const filter = tab.dataset.filter;
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+
+        let visible = 0;
+        cards.forEach(card => {
+          const match = filter === 'all' || card.dataset.cat === filter;
+          card.style.display = match ? '' : 'none';
+          if (match) visible++;
+        });
+
+        if (empty) empty.hidden = visible !== 0;
+      });
+    });
+  })();
+</script>
 </body>
 </html>
