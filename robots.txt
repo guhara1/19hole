@@ -2,5 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /assets/js/
 Disallow: /admin/
+Disallow: /magazine/_template.html
+Disallow: /partials/
 
 Sitemap: https://www.19hole.kr/sitemap.xml
