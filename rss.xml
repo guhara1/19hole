@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Fri, 22 May 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Fri, 22 May 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,16 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>6월 송별·환영회 시즌, 분당 정자동에서 자리 잡는 5가지</title>
+      <link>https://19hole.vip/magazine/2026-06-03-june-farewell-welcome-room-guide.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-06-03-june-farewell-welcome-room-guide.html</guid>
+      <pubDate>Wed, 03 Jun 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>시즌</category>
+      <description><![CDATA[송별과 환영이 한 자리에 겹치는 6월, 분당 정자동 룸 가라오케 운영자가 매년 카운터에서 응대해 온 경험을 바탕으로 정리한 자리 설계 5가지 — 요일·룸·동선·코스·결제까지.]]></description>
+    </item>
 
     <item>
       <title>비즈니스 접대 자리, 분당 하이퍼블릭룸으로 거래처를 편하게 만드는 법</title>
