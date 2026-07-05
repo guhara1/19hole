@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 03 Jun 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 03 Jun 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,16 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>한여름 밤 회식, 분당 정자동 룸에서 시원하게 즐기는 5가지</title>
+      <link>https://19hole.vip/magazine/2026-07-05-midsummer-night-hoesik-room-guide.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-05-midsummer-night-hoesik-room-guide.html</guid>
+      <pubDate>Sun, 05 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>시즌</category>
+      <description><![CDATA[무더위가 시작되는 7월, 분당 정자동 룸 가라오케 운영자가 매년 여름 카운터에서 안내해 온 한여름 밤 회식 자리 설계 5가지 — 시간대·좌석·코스·룸·예약 동선까지.]]></description>
+    </item>
 
     <item>
       <title>6월 송별·환영회 시즌, 분당 정자동에서 자리 잡는 5가지</title>
