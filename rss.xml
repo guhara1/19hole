@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Sun, 05 Jul 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Sun, 05 Jul 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,26 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>여름휴가 전 단합 회식, 분당 정자동 룸에서 팀을 하나로</title>
+      <link>https://19hole.vip/magazine/2026-07-15-summer-vacation-team-unity-room.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-15-summer-vacation-team-unity-room.html</guid>
+      <pubDate>Wed, 15 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>시즌</category>
+      <description><![CDATA[휴가로 팀이 흩어지기 전 한 번 모으는 7월 후반, 분당 정자동 룸 가라오케 운영자가 정리한 단합 회식 자리 설계 5가지 — 시기·참여·룸·여흥·예약 동선까지.]]></description>
+    </item>
+
+    <item>
+      <title>상반기 마무리 회식, 분당 정자동에서 팀 사기 올리는 자리 만들기</title>
+      <link>https://19hole.vip/magazine/2026-07-08-first-half-wrapup-team-morale-room.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-08-first-half-wrapup-team-morale-room.html</guid>
+      <pubDate>Wed, 08 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>시즌</category>
+      <description><![CDATA[상반기를 매듭짓는 7월, 분당 정자동 룸 가라오케 운영자가 정리한 결산 회식 자리 설계 5가지 — 분위기·발언 동선·룸·코스·결제까지, 팀 사기 관리 관점에서.]]></description>
+    </item>
 
     <item>
       <title>한여름 밤 회식, 분당 정자동 룸에서 시원하게 즐기는 5가지</title>
