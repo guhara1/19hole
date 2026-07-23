@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 15 Jul 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,56 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>분당 정자동 룸 가라오케 가격, 정찰제로 미리 확인하는 법</title>
+      <link>https://19hole.vip/magazine/2026-07-23-bundang-room-karaoke-price-guide.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-23-bundang-room-karaoke-price-guide.html</guid>
+      <pubDate>Thu, 23 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[룸 가라오케에서 가장 불안한 "얼마 나올지 모른다"는 걱정을 없애는 법. 분당 정자동 운영자가 인원별 정찰제 구조·룸 타입별 차이·총액 예측·숨은 비용 확인까지 예약 전 가격 확인법을 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>정자동 룸 가라오케 위치와 주차, 처음 오시는 길 안내</title>
+      <link>https://19hole.vip/magazine/2026-07-22-jeongja-room-location-parking.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-22-jeongja-room-location-parking.html</guid>
+      <pubDate>Wed, 22 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>지역</category>
+      <description><![CDATA[처음 방문하시는 분을 위한 정자동 룸 가라오케 위치·주차 안내. 신분당선·수인분당선 정자역 동선, 차량 주차, 자리 끝난 뒤 심야 귀가까지 분당 하이퍼블릭 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>판교 회식 장소, IT 기업 단체 회식을 분당 정자동 룸에서</title>
+      <link>https://19hole.vip/magazine/2026-07-21-pangyo-hoesik-venue-room.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-21-pangyo-hoesik-venue-room.html</guid>
+      <pubDate>Mon, 21 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>지역</category>
+      <description><![CDATA[판교 IT 기업 단체 회식 장소를 찾을 때 참고할 안내. 판교에서 정자동까지 이동 동선, 인원 많은 팀에 맞는 룸, 인원별 정찰제, 법인 결제·세금계산서 처리까지 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>룸 가라오케 예약 방법, 처음이라도 5분이면 끝나는 절차</title>
+      <link>https://19hole.vip/magazine/2026-07-19-room-karaoke-reservation-how-to.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-19-room-karaoke-reservation-how-to.html</guid>
+      <pubDate>Sat, 19 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[룸 가라오케 예약 방법을 준비물부터 결제까지 단계별로 정리. 전화·문의 양식·가예약·인원 확정·총무 단일 결제까지, 처음이라도 5분이면 끝나는 예약 절차를 분당 정자동 운영자가 안내합니다.]]></description>
+    </item>
+
+    <item>
+      <title>하이퍼블릭룸과 퍼블릭룸 차이, 우리 자리엔 어떤 룸이 맞을까</title>
+      <link>https://19hole.vip/magazine/2026-07-17-hyperpublic-vs-public-room-difference.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-17-hyperpublic-vs-public-room-difference.html</guid>
+      <pubDate>Fri, 17 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[하이퍼블릭룸과 퍼블릭룸의 뜻·구성·인원·가격·분위기 차이를 분당 정자동 운영자가 정리. 우리 회식이 우리끼리 편한 자리인지 응대가 필요한 자리인지에 따라 어떤 룸이 맞는지 실전 기준으로 안내합니다.]]></description>
+    </item>
 
     <item>
       <title>여름휴가 전 단합 회식, 분당 정자동 룸에서 팀을 하나로</title>
