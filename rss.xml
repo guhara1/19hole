@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Thu, 23 Jul 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,36 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>강남 접대 대신 분당 정자동, 거래처가 더 편해하는 이유</title>
+      <link>https://19hole.vip/magazine/2026-07-29-gangnam-vs-bundang-entertainment-room.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-29-gangnam-vs-bundang-entertainment-room.html</guid>
+      <pubDate>Wed, 29 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>지역</category>
+      <description><![CDATA["접대는 강남"이 늘 정답은 아닙니다. 거래처가 분당·판교 권역이라면 정자동이 접근성·주차·비용 예측·귀가 동선 어느 면에서도 더 배려된 접대 자리가 되는 이유를 분당 하이퍼블릭 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>생일·기념일 파티룸, 분당 정자동에서 특별한 자리 만드는 법</title>
+      <link>https://19hole.vip/magazine/2026-07-26-birthday-anniversary-party-room.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-26-birthday-anniversary-party-room.html</guid>
+      <pubDate>Sun, 26 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[생일·기념일 파티룸을 분당 정자동에서 준비하는 법. 주인공 중심 룸 선택, 서프라이즈 타이밍, 코스 구성, 예약 타이밍까지 특별한 순간을 만드는 다섯 가지를 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>동창회·동호회 모임 장소, 오랜만의 자리를 분당 룸에서</title>
+      <link>https://19hole.vip/magazine/2026-07-24-alumni-club-gathering-venue-room.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-24-alumni-club-gathering-venue-room.html</guid>
+      <pubDate>Thu, 24 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[오랜만에 모이는 동창회·동호회는 인원이 유동적이라 장소 잡기가 어렵습니다. 가예약으로 자리 먼저 잡기, 넉넉한 룸, 총무 단일 결제 회비 정산, 여흥 흐름까지 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>분당 정자동 룸 가라오케 가격, 정찰제로 미리 확인하는 법</title>
