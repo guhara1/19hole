@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 29 Jul 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 05 Aug 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 05 Aug 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,36 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>8월 늦여름 회식, 휴가 복귀 후 팀 재정비하는 자리 만들기</title>
+      <link>https://19hole.vip/magazine/2026-08-05-late-summer-team-reset-hoesik.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-05-late-summer-team-reset-hoesik.html</guid>
+      <pubDate>Wed, 05 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>시즌</category>
+      <description><![CDATA[휴가에서 돌아온 8월 초, 흩어졌던 팀을 다시 한 방향으로 모으는 늦여름 재정비 회식 자리 설계 5가지 — 시기·분위기·룸·코스·예약까지 분당 정자동 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>성남 회식 장소, 시청·모란 권역에서 정자동 룸으로</title>
+      <link>https://19hole.vip/magazine/2026-08-02-seongnam-hoesik-venue-room.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-02-seongnam-hoesik-venue-room.html</guid>
+      <pubDate>Sun, 02 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>지역</category>
+      <description><![CDATA[성남 시청·모란·수정·중원 권역에서 회식 장소를 찾을 때 참고할 안내. 정자동까지의 동선, 회식 성격별 룸, 인원별 정찰제, 단체 자리까지 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>법인카드 회식, 세금계산서·현금영수증 처리 미리 준비하기</title>
+      <link>https://19hole.vip/magazine/2026-07-31-corporate-card-hoesik-tax-invoice.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-07-31-corporate-card-hoesik-tax-invoice.html</guid>
+      <pubDate>Fri, 31 Jul 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[법인카드 회식의 세금계산서·현금영수증 처리를 예약 단계에서 미리 준비하는 법. 법인 처리 사전 고지, 사업자 정보 준비, 사전 견적, 단일 결제 정산까지 총무가 편한 흐름을 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>강남 접대 대신 분당 정자동, 거래처가 더 편해하는 이유</title>
