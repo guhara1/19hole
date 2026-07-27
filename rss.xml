@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 05 Aug 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 05 Aug 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 12 Aug 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 12 Aug 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,36 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>소규모 팀 회식, 4~6인이 딱 좋은 룸과 예산 고르는 법</title>
+      <link>https://19hole.vip/magazine/2026-08-12-small-team-hoesik-room-budget.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-12-small-team-hoesik-room-budget.html</guid>
+      <pubDate>Wed, 12 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[회식이 꼭 부서 전체일 필요는 없습니다. 4~6인 소규모 팀 회식에 딱 맞는 아늑한 룸, 정찰제 예산 계산, 분위기 몰입, 간단한 예약까지 분당 정자동 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>회식 2차 장소, 1차 끝나고 자연스럽게 이어가는 법</title>
+      <link>https://19hole.vip/magazine/2026-08-09-hoesik-second-round-venue.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-09-hoesik-second-round-venue.html</guid>
+      <pubDate>Sun, 09 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[1차가 무르익었을 때 "2차 갈까?"에서 분위기가 식지 않게 하는 법. 2차 미리 잡기, 짧은 이동 동선, 여흥 중심 룸, 줄어든 인원 정리, 단일 결제까지 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>용인 회식 장소, 수지·기흥에서 분당 정자동 룸으로</title>
+      <link>https://19hole.vip/magazine/2026-08-07-yongin-hoesik-venue-room.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-07-yongin-hoesik-venue-room.html</guid>
+      <pubDate>Fri, 07 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>지역</category>
+      <description><![CDATA[용인 수지·기흥·죽전 권역에서 회식 장소를 찾을 때 참고할 안내. 정자동까지의 동선, 회식 성격별 룸, 인원별 정찰제, 단체 자리까지 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>8월 늦여름 회식, 휴가 복귀 후 팀 재정비하는 자리 만들기</title>
