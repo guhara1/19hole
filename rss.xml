@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 12 Aug 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 12 Aug 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,36 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>추석 전 팀 회식, 명절 앞두고 한 번 모으는 자리 만들기</title>
+      <link>https://19hole.vip/magazine/2026-08-19-chuseok-pre-holiday-team-hoesik.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-19-chuseok-pre-holiday-team-hoesik.html</guid>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>시즌</category>
+      <description><![CDATA[추석 명절을 앞둔 9월 초, 연휴로 흩어지기 전 팀을 한 번 모으는 회식 자리 설계 5가지 — 시기·분위기·룸·코스·예약까지 분당 정자동 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>회식 여흥·게임 아이디어, 룸에서 팀 분위기 살리는 법</title>
+      <link>https://19hole.vip/magazine/2026-08-16-hoesik-games-entertainment-ideas.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-16-hoesik-games-entertainment-ideas.html</guid>
+      <pubDate>Sun, 16 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[회식 여흥과 게임 아이디어. 다 같이 부담 없이 참여하는 원칙, 노래 테마, 짧고 단순한 게임, 초반 분위기 올리기, 여유 있는 룸까지 팀 분위기 살리는 법을 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>회식 예절, 룸 가라오케에서 지키면 좋은 기본 매너</title>
+      <link>https://19hole.vip/magazine/2026-08-14-hoesik-etiquette-room-manner.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-14-hoesik-etiquette-room-manner.html</guid>
+      <pubDate>Fri, 14 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[룸 가라오케 회식에서 지키면 좋은 기본 매너. 자리 배치, 노래 순서, 술 권유, 목소리와 시간, 깔끔한 마무리까지 서로 편안한 회식을 만드는 예절을 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>소규모 팀 회식, 4~6인이 딱 좋은 룸과 예산 고르는 법</title>
