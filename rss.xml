@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 19 Aug 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 26 Aug 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 26 Aug 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,36 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>회식 총무가 예약 전화에서 꼭 확인해야 할 8가지</title>
+      <link>https://19hole.vip/magazine/2026-08-26-hoesik-manager-booking-checklist.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-26-hoesik-manager-booking-checklist.html</guid>
+      <pubDate>Wed, 26 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[예약은 5분이면 끝나지만 그 5분에 무엇을 확인했느냐가 회식 당일을 좌우합니다. 이용 시간·인원 확정 데드라인·코스 구성·금주 인원·세금계산서·주차·도착 동선·변경 시점까지, 놓치면 당일 후회하는 8가지를 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>회식비 1/n, 애매한 상황별로 깔끔하게 나누는 법</title>
+      <link>https://19hole.vip/magazine/2026-08-23-hoesik-bill-split-scenarios.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-23-hoesik-bill-split-scenarios.html</guid>
+      <pubDate>Sun, 23 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[그냥 1/n이면 될 것 같지만 실제로는 늘 애매한 상황이 생깁니다. 법인이 일부만 지원할 때, 중간에 합류하거나 먼저 간 사람, 주량 차이, 상급자가 얹어줄 때까지 뒷말 없이 나누는 실전 규칙과 정산이 쉬워지는 결제 방식을 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>예약 인원이 바뀌었을 때, 회식 당일까지 이렇게 대응하세요</title>
+      <link>https://19hole.vip/magazine/2026-08-21-hoesik-headcount-change-response.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-21-hoesik-headcount-change-response.html</guid>
+      <pubDate>Fri, 21 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[회식 예약 인원은 거의 그대로 가지 않습니다. 인원이 늘 때·줄 때·노쇼가 생길 때 실제로 무엇이 달라지는지, 왜 예상 최대치로 잡아야 하는지, 언제까지 조정 가능한지를 매장 실무 기준으로 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>추석 전 팀 회식, 명절 앞두고 한 번 모으는 자리 만들기</title>
