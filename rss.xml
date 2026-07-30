@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 26 Aug 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 26 Aug 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 02 Sep 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 02 Sep 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,36 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>회식을 부담스러워하는 팀원까지 챙기는 회식 만드는 법</title>
+      <link>https://19hole.vip/magazine/2026-09-02-including-reluctant-team-members.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-02-including-reluctant-team-members.html</guid>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[어느 팀에나 회식을 부담스러워하는 사람이 있습니다. 억지로 끌지 않으면서도 소외시키지 않는 법 — 부담 이유 구분, 강요 없는 술·여흥, 끝나는 시각 예고, 먼저 갈 여지, 여유 있는 룸까지 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>상사·거래처와 앉을 때, 룸 회식 자리 배치 실전 가이드</title>
+      <link>https://19hole.vip/magazine/2026-08-30-hoesik-seating-arrangement.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-30-hoesik-seating-arrangement.html</guid>
+      <pubDate>Sun, 30 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[룸 회식에서 상사·거래처와 앉을 때 어색하지 않은 자리 배치. 룸의 상석(입구에서 먼 안쪽 중앙), 접대 주빈의 화면 시야, 호스트는 입구 쪽, 마이크·여흥 동선까지 룸 구조 기준으로 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>회식 날짜·요일 정하기, 참석률 높이는 실전 기준</title>
+      <link>https://19hole.vip/magazine/2026-08-28-hoesik-date-day-planning.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-08-28-hoesik-date-day-planning.html</guid>
+      <pubDate>Fri, 28 Aug 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[회식 참석률의 절반은 "언제로 잡았느냐"에서 갈립니다. 목요일이 유리한 이유, 피해야 할 월말·마감주, 2주 전 예고·1주 전 확정 공지, 날짜부터 가예약하는 순서까지 예약 현장 기준으로 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>회식 총무가 예약 전화에서 꼭 확인해야 할 8가지</title>
