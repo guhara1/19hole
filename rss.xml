@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 09 Sep 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 09 Sep 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 16 Sep 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 16 Sep 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,36 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>회식 예산, 1인당 얼마로 잡아야 할까 — 총무의 예산 역산법</title>
+      <link>https://19hole.vip/magazine/2026-09-16-hoesik-budget-per-person.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-16-hoesik-budget-per-person.html</guid>
+      <pubDate>Wed, 16 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[회식 예산은 총액이 아니라 1인당에서 시작해 인원을 곱하는 역순으로 잡아야 결재도 정산도 깔끔합니다. 1인당→인원→총액 순서, 정찰제로 총액 예측하는 법, 인원·금액 여유분 기준, 회비/법인 결제 주체 먼저 정하기까지 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>못 먹는 음식·주류가 있는 팀원까지 챙기는 회식 준비</title>
+      <link>https://19hole.vip/magazine/2026-09-13-hoesik-dietary-consideration.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-13-hoesik-dietary-consideration.html</guid>
+      <pubDate>Sun, 13 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[알레르기·채식·비음주 팀원이 있어도 아무도 소외되지 않는 회식 준비법. 참석 회신 때 조용히 파악하기, 예약 때 매장에 전달하기, 술 못 하는 사람을 위한 음료 선택지, 티 안 나는 메뉴 안내까지 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>회식 후 안전 귀가, 대리운전·차량·심야 동선 미리 챙기는 법</title>
+      <link>https://19hole.vip/magazine/2026-09-11-hoesik-safe-return-home.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-11-hoesik-safe-return-home.html</guid>
+      <pubDate>Fri, 11 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[회식 후 안전 귀가는 자리 시작 전에 준비됩니다. 마실 거면 차 두고 오기, 대리운전 20~30분 앞당겨 호출, 각자 막차 시각 확인, 다음 날 차 회수까지 — 정자동 심야 동선을 곁들여 운영자가 실전으로 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>송년회 장소 예약, 10월엔 잡아야 하는 현실적인 이유</title>
