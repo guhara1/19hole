@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 02 Sep 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 02 Sep 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 09 Sep 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 09 Sep 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,36 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>송년회 장소 예약, 10월엔 잡아야 하는 현실적인 이유</title>
+      <link>https://19hole.vip/magazine/2026-09-09-year-end-party-booking-timing.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-09-year-end-party-booking-timing.html</guid>
+      <pubDate>Wed, 09 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>시즌</category>
+      <description><![CDATA[송년회 자리는 인원이 확정되기 전에 마감됩니다. 12월 금·토가 가장 먼저 차는 이유, 10월 말~11월 초가 여유 있게 고를 마지막 시점인 까닭, 가예약으로 인원 확정 전 선점하는 법, 요일을 하루 옮겨 선택지를 넓히는 법까지 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>회식 건배사, 갑자기 시켜도 당황하지 않는 준비법</title>
+      <link>https://19hole.vip/magazine/2026-09-06-hoesik-toast-guide.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-06-hoesik-toast-guide.html</guid>
+      <pubDate>Sun, 06 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[건배사는 재치가 아니라 구조입니다. 도입·의미 한 줄·선창 후창의 30초 3단 구조, 팀 회식 예시, 상황별 선창 후창 구호, 피해야 할 것까지 — 갑자기 지목당해도 당황하지 않는 준비법을 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>회식 공지, 참석률 높이는 카톡 공지 문구 쓰는 법</title>
+      <link>https://19hole.vip/magazine/2026-09-04-hoesik-announcement-message.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-04-hoesik-announcement-message.html</guid>
+      <pubDate>Fri, 04 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[같은 회식도 공지 한 줄에 회신 속도가 달라집니다. 반드시 넣을 6가지(날짜·요일, 시작 끝 시각, 장소, 회비, 회신 기한, 부담 낮추는 한 줄), 바로 쓰는 팀 회식 템플릿, 2주 전 예고 1주 전 리마인드까지 총무용 공지 실전법을 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>회식을 부담스러워하는 팀원까지 챙기는 회식 만드는 법</title>
