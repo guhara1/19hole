@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 16 Sep 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 16 Sep 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,16 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>처음 회식 총무를 맡았다면, D-7부터 당일까지 준비 타임라인</title>
+      <link>https://19hole.vip/magazine/2026-09-18-first-time-manager-hoesik-timeline.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-18-first-time-manager-hoesik-timeline.html</guid>
+      <pubDate>Fri, 18 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[처음 회식 총무를 맡아 막막하다면, 회식 준비는 순서의 문제입니다. D-7 날짜·장소 가예약부터 D-6 공지, D-3 인원·예산 확정, D-1 리마인드, 당일 결제·귀가 마무리까지 — 첫 총무가 그대로 따라 할 수 있는 준비 타임라인을 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>회식 예산, 1인당 얼마로 잡아야 할까 — 총무의 예산 역산법</title>
