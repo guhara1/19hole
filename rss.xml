@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Sat, 26 Sep 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Sat, 26 Sep 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Mon, 28 Sep 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,16 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>신입·새 멤버의 첫 회식, 서로 편하게 만드는 법</title>
+      <link>https://19hole.vip/magazine/2026-09-28-newcomer-first-hoesik.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-28-newcomer-first-hoesik.html</guid>
+      <pubDate>Mon, 28 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[첫 회식은 신입도 팀도 긴장되는 자리입니다. 신입은 일찍 도착·밝은 인사·술 무리 금물·경청을, 팀은 가운데 자리·따뜻한 소개·강요 없는 참여·이름 부르며 대화를 — 양쪽이 조금씩 배려하면 아무도 불편하지 않은 환영 자리가 됩니다. 두 관점으로 나눠 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>회식에서 과음하지 않고 끝까지 즐기는 법 — 술 페이스 조절 실전</title>
