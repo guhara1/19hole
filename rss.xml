@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Tue, 22 Sep 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Tue, 22 Sep 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Thu, 24 Sep 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Thu, 24 Sep 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,16 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>회식에서 무슨 말을 하지 — 어색함 없이 대화 이어가는 법</title>
+      <link>https://19hole.vip/magazine/2026-09-24-hoesik-conversation-guide.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-24-hoesik-conversation-guide.html</guid>
+      <pubDate>Thu, 24 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[회식 대화는 타고난 화술이 아니라 몇 가지 원칙입니다. 내 이야기보다 질문으로 말문을 열고, 한 화제를 깊이 이어가며, 정치·종교·뒷담화·사생활 캐묻기·일 얘기만은 피하고, 무엇보다 잘 들어주는 것 — 말주변이 없어도 편안한 대화 상대가 되는 법을 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>회식 노래 선곡, 룸에서 분위기 살리는 선곡 요령</title>
