@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Thu, 24 Sep 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Thu, 24 Sep 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Sat, 26 Sep 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Sat, 26 Sep 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,16 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>회식에서 과음하지 않고 끝까지 즐기는 법 — 술 페이스 조절 실전</title>
+      <link>https://19hole.vip/magazine/2026-09-26-hoesik-drinking-pace-control.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-26-hoesik-drinking-pace-control.html</guid>
+      <pubDate>Sat, 26 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[매번 과음하는 건 의지가 아니라 페이스 문제입니다. 과음은 많이가 아니라 빨리 마셔서 생기므로 초반 30분을 천천히, 술 한 잔에 물 한 잔과 안주를 병행하고, 권하는 잔은 거절 대신 '이따가요'로 미루며, 내 취기 신호를 알아 멈출 선을 긋는 것 — 다음 날 후회 없이 끝까지 즐기는 실전 요령을 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>회식에서 무슨 말을 하지 — 어색함 없이 대화 이어가는 법</title>
