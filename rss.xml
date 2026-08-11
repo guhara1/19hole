@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Mon, 28 Sep 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Mon, 28 Sep 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,16 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>회식 다음 날, 숙취 줄이고 컨디션 지키는 실전법</title>
+      <link>https://19hole.vip/magazine/2026-09-30-day-after-hoesik-recovery.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-09-30-day-after-hoesik-recovery.html</guid>
+      <pubDate>Wed, 30 Sep 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[회식 다음 날 컨디션의 절반 이상은 전날 밤 잠들기 전에 결정됩니다. 숙취 대책의 8할은 수분과 수면 — 자기 전 물 한 컵, 아침엔 수분과 따뜻한 국물, 출근 후엔 중요한 일은 오후로 미루고 물을 자주. 가장 확실한 예방인 전날 페이스 조절까지, 하루를 무너뜨리지 않는 실전 요령을 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>신입·새 멤버의 첫 회식, 서로 편하게 만드는 법</title>
