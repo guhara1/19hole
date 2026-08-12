@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Wed, 30 Sep 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,16 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>떠나는 동료를 제대로 배웅하는 송별회, 준비하는 법</title>
+      <link>https://19hole.vip/magazine/2026-10-02-farewell-party-guide.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-10-02-farewell-party-guide.html</guid>
+      <pubDate>Fri, 02 Oct 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[송별회는 화려할 필요 없이 진심이면 됩니다. 주인공을 자리·대화의 중심에 두고, 형식적 덕담 대신 함께한 구체적 순간을 한마디씩 돌아가며 전하고, 선물은 금액보다 마음으로, 억지 눈물이나 퇴사 사유 캐묻기는 피하고 앞날을 응원하며 밝게 — 오래 기억에 남는 송별 자리를 만드는 법을 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>회식 다음 날, 숙취 줄이고 컨디션 지키는 실전법</title>
