@@ -10,8 +10,8 @@
     <description>분당 정자동 라운딩19홀이 매주 발행하는 룸 가라오케·회식·단체 모임 가이드</description>
     <language>ko-KR</language>
     <copyright>© 라운딩19홀</copyright>
-    <pubDate>Fri, 02 Oct 2026 10:00:00 +0900</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2026 10:00:00 +0900</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2026 10:00:00 +0900</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2026 10:00:00 +0900</lastBuildDate>
     <generator>라운딩19홀 정적 사이트</generator>
     <ttl>1440</ttl>
     <image>
@@ -19,6 +19,26 @@
       <title>라운딩19홀 블로그</title>
       <link>https://19hole.vip/magazine/</link>
     </image>
+
+    <item>
+      <title>술 없이도 즐거운 회식 만들기 — 비음주 팀을 위한 실전</title>
+      <link>https://19hole.vip/magazine/2026-10-06-alcohol-free-hoesik.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-10-06-alcohol-free-hoesik.html</guid>
+      <pubDate>Tue, 06 Oct 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>팁</category>
+      <description><![CDATA[술 없는 회식이 밋밋하다는 건 오해입니다. 회식의 목적을 취하는 것이 아니라 친목으로 다시 잡고, 노래·게임 같은 활동으로 분위기를 채우고, 무알코올 음료를 다양하게 두고, 짧고 알차게 마무리하면 술 없이도 충분히 즐겁습니다. 비음주·저음주 팀을 위한 회식 실전법을 운영자가 정리했습니다.]]></description>
+    </item>
+
+    <item>
+      <title>처음 거래처 접대를 맡았다면, 준비와 처신 실전 가이드</title>
+      <link>https://19hole.vip/magazine/2026-10-04-first-client-entertainment.html</link>
+      <guid isPermaLink="true">https://19hole.vip/magazine/2026-10-04-first-client-entertainment.html</guid>
+      <pubDate>Sun, 04 Oct 2026 10:00:00 +0900</pubDate>
+      <dc:creator>라운딩19홀 운영팀</dc:creator>
+      <category>가이드</category>
+      <description><![CDATA[처음 거래처 접대를 맡으면 장소부터 처신까지 막막합니다. 조용하고 예측 가능한 장소, 상대를 상석에 모시고 나는 입구 쪽에 앉는 배치, 대화와 술은 상대 페이스에 맞추기, 계산은 미리 조용히 — 실수 없이 상대를 편하게 모시는 접대 준비와 처신을 운영자가 정리했습니다.]]></description>
+    </item>
 
     <item>
       <title>떠나는 동료를 제대로 배웅하는 송별회, 준비하는 법</title>
